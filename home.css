@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   text-transform: capitalize;
+   text-decoration: none;
+   list-style-type: none;
+}
+.one{
+    position: absolute;
+    width: 250px;
+    height: 100%;
+    background-color: #2C3A47;
+    text-align: center;
+    transform: translateX(-250px);
+    transition: .5s;
+}
+nav ul{
+   
+}
+.one ul li{
+margin-top: 20px;
+
+margin-bottom: 10px;
+}
+  .one ul li a{
+    color:#fff;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: .5s;
+ 
+}
+.one ul li a:hover{
+    box-shadow: 0px 0px 5px cyan;
+}
+.one div img{
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+    margin-top: 10px;
+    border: 2px solid yellow;
+}
+/* home section code start */
+
+.home{
+    /* background-color: rgba(0, 0, 0, 0.562); */
+    background-image:linear-gradient(rgba(0, 0, 0, 0.705),rgba(0, 0, 0, 0.548)), url('img/274318-desk-office-mouse-and-laptop-hd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    
+    /* width: 100%; */
+    height:100vh;
+    color: #fff;
+    text-align: center;
+  
+}
+.home h1{
+    padding-top: 200px;
+    letter-spacing: 2px;
+    font-size: 60px;
+    font-weight: bold;
+}
+.home h2{
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 60px;
+
+    
+}
+.home p{
+    width: 820px;
+    margin: auto;
+    margin-bottom: 25px;
+    text-align: justify;
+    
+}
+.home a{
+    color: #fff;
+    background-color: crimson;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.bars{
+    font-size: 25px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+
+    color: #fff;
+}
+#check:checked ~ .one{
+    transform: translateX(0);
+}
+#check:checked ~ #menu i:before{
+    content:"\f00d";
+    transition: 1s;
+}
+/* footer section code start here */
+footer{
+    background-color: #03033B;
+}
+.footer-parent{
+    width: 1000px;
+    margin: auto;
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+}
+.first-div h1{
+    color: #fff;
+    margin-bottom: 10px;
+  
+    text-align: center;
+    margin-top: 5px;
+}
+.first-div p{
+    color: gray;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.first-div a{
+    color: gray;
+    font-weight: bold;
+    font-size: 25px;
+}
+.first-div  i{
+    color: #fff;
+    margin-right: 4px;
+    font-size: 25px;
+}
+
+.menu-div ul{
+display: flex;
+justify-content: center;
+}
+.menu-div ul li{
+    margin: 5px 20px;
+  
+}
+.menu-div ul li a{
+    color: gray;
+    font-weight: bold;
+    font-size: 25px;
+}
+hr{
+    margin: 20px 0px;
+}
+.copyright{
+    color: gray;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 0px;
+}
